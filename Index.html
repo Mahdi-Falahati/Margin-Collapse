@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Margin Collapsed</title>
+    <style>
+        .adjacent-element {
+            margin: 20px 0 10px;
+
+            background-color: #30016d;
+            color: aliceblue;
+            text-align: center;
+            border-radius: 20px;
+        }
+    </style>
 </head>
+
 <body>
-    
+
+    <!-- This Div tag bottom margin is collapse -->
+    <div class="adjacent-element">bottom margin is collapse</div>
+    <div class="adjacent-element">20px below the above text</div>
+
+
 </body>
+
 </html>
